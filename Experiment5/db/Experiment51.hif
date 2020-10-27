@@ -1,0 +1,63 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+24
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Experiment51
+# storage
+db|Experiment51.(0).cnf
+db|Experiment51.(0).cnf
+# case_insensitive
+# source_file
+Experiment51.bdf
+794e126229a194c247f851ae8a3c23
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+7400
+# storage
+db|Experiment51.(1).cnf
+db|Experiment51.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|90sp2|quartus|libraries|others|maxplus2|7400.bdf
+2bbb3be4da5c8a854468ca6be3dac
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7400:inst1
+7400:inst
+}
+# macro_sequence
+
+# end
+# complete
+
