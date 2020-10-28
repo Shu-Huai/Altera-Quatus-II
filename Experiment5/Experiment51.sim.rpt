@@ -1,5 +1,5 @@
 Simulator report for Experiment51
-Wed Oct 28 00:40:58 2020
+Wed Oct 28 16:58:52 2020
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -45,9 +45,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 5 nodes      ;
+; Simulation Netlist Size     ; 8 nodes      ;
 ; Simulation Coverage         ;     100.00 % ;
-; Total Number of Transitions ; 297          ;
+; Total Number of Transitions ; 364          ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; ACEX1K       ;
 +-----------------------------+--------------+
@@ -94,9 +94,9 @@ Please use Quartus II to view the waveform report data.
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
 ; Total coverage as a percentage                      ;     100.00 % ;
-; Total nodes checked                                 ; 5            ;
-; Total output ports checked                          ; 5            ;
-; Total output ports with complete 1/0-value coverage ; 5            ;
+; Total nodes checked                                 ; 8            ;
+; Total output ports checked                          ; 8            ;
+; Total output ports with complete 1/0-value coverage ; 8            ;
 ; Total output ports with no 1/0-value coverage       ; 0            ;
 ; Total output ports with no 1-value coverage         ; 0            ;
 ; Total output ports with no 0-value coverage         ; 0            ;
@@ -104,17 +104,20 @@ Please use Quartus II to view the waveform report data.
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+----------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                ;
-+----------------------------+----------------------------+------------------+
-; Node Name                  ; Output Port Name           ; Output Port Type ;
-+----------------------------+----------------------------+------------------+
-; |Experiment51|Q            ; |Experiment51|Q            ; pin_out          ;
-; |Experiment51|S            ; |Experiment51|S            ; out              ;
-; |Experiment51|R            ; |Experiment51|R            ; out              ;
-; |Experiment51|7400:inst|4  ; |Experiment51|7400:inst|4  ; out0             ;
-; |Experiment51|7400:inst1|4 ; |Experiment51|7400:inst1|4 ; out0             ;
-+----------------------------+----------------------------+------------------+
++----------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                    ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |Experiment51|Q      ; |Experiment51|Q      ; pin_out          ;
+; |Experiment51|inst   ; |Experiment51|inst   ; regout           ;
+; |Experiment51|inst~0 ; |Experiment51|inst~0 ; out0             ;
+; |Experiment51|inst~1 ; |Experiment51|inst~1 ; out0             ;
+; |Experiment51|inst~2 ; |Experiment51|inst~2 ; out0             ;
+; |Experiment51|K      ; |Experiment51|K      ; out              ;
+; |Experiment51|J      ; |Experiment51|J      ; out              ;
+; |Experiment51|CP     ; |Experiment51|CP     ; out              ;
++----------------------+----------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
@@ -146,21 +149,22 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Wed Oct 28 00:40:57 2020
+    Info: Processing started: Wed Oct 28 16:58:52 2020
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Experiment51 -c Experiment51
-Info: Using vector source file "D:/Altera Quatus II/Experiment5/Experiment51.vwf"
+Info: Using vector source file "Z:/Altera Quatus II/Experiment5/Experiment51.vwf"
 Info: Overwriting simulation input file with simulation results
     Info: A backup of Experiment51.vwf called Experiment51.sim_ori.vwf has been created in the db folder
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Warning: Found clock-sensitive change during active clock edge at time 40.0 ns on register "|Experiment51|inst"
 Info: Simulation partitioned into 1 sub-simulations
 Info: Simulation coverage is     100.00 %
-Info: Number of transitions in simulation is 297
+Info: Number of transitions in simulation is 364
 Info: Vector file Experiment51.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
-Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+Info: Quartus II Simulator was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 176 megabytes
-    Info: Processing ended: Wed Oct 28 00:40:58 2020
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Wed Oct 28 16:58:52 2020
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

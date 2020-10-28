@@ -20,11 +20,11 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("D:/Altera Quatus II/Experiment3/Experiment32.vwf")
+VECTOR("D:/Altera Quatus II/Experiment3/Experiment31.vwf")
 {
 	ZOOM{
-		ZBEGIN = 116640;
-		ZEND = 165240;
+		ZBEGIN = 0;
+		ZEND = 68450;
 		NUMERATOR = 20;
 		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
@@ -119,11 +119,11 @@ VECTOR("D:/Altera Quatus II/Experiment3/Experiment32.vwf")
 	}
 }
 
-VECTOR("D:/Altera Quatus II/Experiment3/Experiment31.vwf")
+VECTOR("D:/Altera Quatus II/Experiment3/Experiment32.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 68450;
+		ZBEGIN = 116640;
+		ZEND = 165240;
 		NUMERATOR = 20;
 		DENOMINATOR = 1000;
 		TOP_INDEX = 0;

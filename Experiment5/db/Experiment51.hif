@@ -26,7 +26,7 @@ db|Experiment51.(0).cnf
 # case_insensitive
 # source_file
 Experiment51.bdf
-794e126229a194c247f851ae8a3c23
+81ea1854d52688f95577b4af294996e8
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -34,27 +34,6 @@ AUTO
 }
 # hierarchies {
 |
-}
-# macro_sequence
-
-# end
-# entity
-7400
-# storage
-db|Experiment51.(1).cnf
-db|Experiment51.(1).cnf
-# case_insensitive
-# source_file
-c:|altera|90sp2|quartus|libraries|others|maxplus2|7400.bdf
-2bbb3be4da5c8a854468ca6be3dac
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-7400:inst1
-7400:inst
 }
 # macro_sequence
 

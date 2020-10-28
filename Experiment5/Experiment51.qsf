@@ -18,7 +18,7 @@
 #
 # Quartus II
 # Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-# Date created = 00:32:09  October 28, 2020
+# Date created = 16:56:28  October 28, 2020
 #
 # -------------------------------------------------------------------------- #
 #
@@ -40,11 +40,17 @@ set_global_assignment -name FAMILY ACEX1K
 set_global_assignment -name DEVICE "EP1K30TC144-3"
 set_global_assignment -name TOP_LEVEL_ENTITY Experiment51
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:32:09  OCTOBER 28, 2020"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:56:28  OCTOBER 28, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name BDF_FILE Experiment51.bdf
+set_global_assignment -name FLEX10K_DEVICE_IO_STANDARD LVTTL/LVCMOS
+set_location_assignment PIN_138 -to J
+set_location_assignment PIN_137 -to K
+set_location_assignment PIN_136 -to CP
+set_location_assignment PIN_135 -to Q
+set_global_assignment -name MISC_FILE "Z:/Altera Quatus II/Experiment5/Experiment51.dpf"
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name VECTOR_WAVEFORM_FILE Experiment51.vwf

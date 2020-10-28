@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Experiment51
-Wed Oct 28 00:38:18 2020
+Wed Oct 28 16:57:58 2020
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -12,9 +12,8 @@ Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
   4. Analysis & Synthesis Source Files Read
   5. Analysis & Synthesis Resource Usage Summary
   6. Analysis & Synthesis Resource Utilization by Entity
-  7. Logic Cells Representing Combinational Loops
-  8. General Register Statistics
-  9. Analysis & Synthesis Messages
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
 
 
 
@@ -40,13 +39,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                               ;
 +-----------------------------+----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Wed Oct 28 00:38:18 2020        ;
+; Analysis & Synthesis Status ; Successful - Wed Oct 28 16:57:58 2020        ;
 ; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
 ; Revision Name               ; Experiment51                                 ;
 ; Top-level Entity Name       ; Experiment51                                 ;
 ; Family                      ; ACEX1K                                       ;
 ; Total logic elements        ; 1                                            ;
-; Total pins                  ; 3                                            ;
+; Total pins                  ; 4                                            ;
 ; Total memory bits           ; 0                                            ;
 ; Total PLLs                  ; 0                                            ;
 +-----------------------------+----------------------------------------------+
@@ -114,57 +113,44 @@ applicable agreement for further details.
 +--------------------------------------------------------------+---------------+---------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                               ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                               ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------+
-; Experiment51.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Altera Quatus II/Experiment5/Experiment51.bdf           ;
-; 7400.bdf                         ; yes             ; Megafunction                       ; c:/altera/90sp2/quartus/libraries/others/maxplus2/7400.bdf ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                     ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                     ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------+
+; Experiment51.bdf                 ; yes             ; User Block Diagram/Schematic File  ; Z:/Altera Quatus II/Experiment5/Experiment51.bdf ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------+
 
 
-+-------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary     ;
-+--------------------------------+----------------+
-; Resource                       ; Usage          ;
-+--------------------------------+----------------+
-; Total logic elements           ; 1              ;
-; Total combinational functions  ; 1              ;
-;     -- Total 4-input functions ; 0              ;
-;     -- Total 3-input functions ; 1              ;
-;     -- Total 2-input functions ; 0              ;
-;     -- Total 1-input functions ; 0              ;
-;     -- Total 0-input functions ; 0              ;
-; Total registers                ; 0              ;
-; I/O pins                       ; 3              ;
-; Maximum fan-out node           ; 7400:inst1|4~1 ;
-; Maximum fan-out                ; 2              ;
-; Total fan-out                  ; 4              ;
-; Average fan-out                ; 1.00           ;
-+--------------------------------+----------------+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------------+------------+
+; Resource                       ; Usage      ;
++--------------------------------+------------+
+; Total logic elements           ; 1          ;
+; Total combinational functions  ; 1          ;
+;     -- Total 4-input functions ; 0          ;
+;     -- Total 3-input functions ; 1          ;
+;     -- Total 2-input functions ; 0          ;
+;     -- Total 1-input functions ; 0          ;
+;     -- Total 0-input functions ; 0          ;
+; Total registers                ; 1          ;
+; I/O pins                       ; 4          ;
+; Maximum fan-out node           ; inst       ;
+; Maximum fan-out                ; 2          ;
+; Total fan-out                  ; 5          ;
+; Average fan-out                ; 1.00       ;
++--------------------------------+------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                         ;
-+----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name      ; Library Name ;
-+----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------+--------------+
-; |Experiment51              ; 1 (0)       ; 0            ; 0           ; 3    ; 1 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Experiment51            ; work         ;
-;    |7400:inst1|            ; 1 (1)       ; 0            ; 0           ; 0    ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Experiment51|7400:inst1 ; work         ;
-+----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                    ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; |Experiment51              ; 1 (1)       ; 1            ; 0           ; 4    ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |Experiment51       ; work         ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops               ;
-+--------------------------------------------------------+---+
-; Logic Cell Name                                        ;   ;
-+--------------------------------------------------------+---+
-; 7400:inst1|4~0                                         ;   ;
-; Number of logic cells representing combinational loops ; 1 ;
-+--------------------------------------------------------+---+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -172,7 +158,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 1     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -188,20 +174,18 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Wed Oct 28 00:38:17 2020
+    Info: Processing started: Wed Oct 28 16:57:57 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Experiment51 -c Experiment51
 Info: Found 1 design units, including 1 entities, in source file Experiment51.bdf
     Info: Found entity 1: Experiment51
 Info: Elaborating entity "Experiment51" for the top level hierarchy
-Info: Elaborating entity "7400" for hierarchy "7400:inst1"
-Info: Elaborated megafunction instantiation "7400:inst1"
-Info: Implemented 4 device resources after synthesis - the final resource count might be different
-    Info: Implemented 2 input pins
+Info: Implemented 5 device resources after synthesis - the final resource count might be different
+    Info: Implemented 3 input pins
     Info: Implemented 1 output pins
     Info: Implemented 1 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 242 megabytes
-    Info: Processing ended: Wed Oct 28 00:38:18 2020
+    Info: Peak virtual memory: 241 megabytes
+    Info: Processing ended: Wed Oct 28 16:57:58 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

@@ -1,4 +1,4 @@
-Fitter Status : Successful - Wed Oct 28 00:38:19 2020
+Fitter Status : Successful - Wed Oct 28 16:58:00 2020
 Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
 Revision Name : Experiment51
 Top-level Entity Name : Experiment51
@@ -6,6 +6,6 @@ Family : ACEX1K
 Device : EP1K30TC144-3
 Timing Models : Final
 Total logic elements : 1 / 1,728 ( < 1 % )
-Total pins : 3 / 102 ( 3 % )
+Total pins : 4 / 102 ( 4 % )
 Total memory bits : 0 / 24,576 ( 0 % )
 Total PLLs : 0

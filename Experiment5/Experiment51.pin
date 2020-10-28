@@ -36,7 +36,7 @@
  ------------------------------------------------------------------------------
 
 
-File Generation Date & Time: Wed Oct 28 00:38:19 2020
+File Generation Date & Time: Wed Oct 28 16:58:00 2020
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 CHIP  "Experiment51"  ASSIGNED TO AN: EP1K30TC144-3
 
@@ -92,7 +92,7 @@ GND*                         : 47        :        :                   :         
 GND*                         : 48        :        :                   :         :           :                
 GND*                         : 49        :        :                   :         :           :                
 VCC_INT                      : 50        : power  :                   : 2.5V    :           :                
-Q                            : 51        : output : LVTTL/LVCMOS      :         :           : N              
+GND*                         : 51        :        :                   :         :           :                
 GND_INT                      : 52        : gnd    :                   :         :           :                
 VCC_CKLK                     : 53        : power  :                   : 2.5V    :           :                
 GND+                         : 54        :        :                   :         :           :                
@@ -165,9 +165,9 @@ GND*                         : 120       :        :                   :         
 GND*                         : 121       :        :                   :         :           :                
 GND*                         : 122       :        :                   :         :           :                
 GND_INT                      : 123       : gnd    :                   :         :           :                
-R                            : 124       : input  : LVTTL/LVCMOS      :         :           : N              
+GND+                         : 124       :        :                   :         :           :                
 GND+                         : 125       :        :                   :         :           :                
-S                            : 126       : input  : LVTTL/LVCMOS      :         :           : N              
+GND+                         : 126       :        :                   :         :           :                
 VCC_INT                      : 127       : power  :                   : 2.5V    :           :                
 GND*                         : 128       :        :                   :         :           :                
 GND_INT                      : 129       : gnd    :                   :         :           :                
@@ -176,10 +176,10 @@ GND*                         : 131       :        :                   :         
 GND*                         : 132       :        :                   :         :           :                
 GND*                         : 133       :        :                   :         :           :                
 VCC_IO                       : 134       : power  :                   : 3.3V    :           :                
-GND*                         : 135       :        :                   :         :           :                
-GND*                         : 136       :        :                   :         :           :                
-GND*                         : 137       :        :                   :         :           :                
-GND*                         : 138       :        :                   :         :           :                
+Q                            : 135       : output : LVTTL/LVCMOS      :         :           : Y              
+CP                           : 136       : input  : LVTTL/LVCMOS      :         :           : Y              
+K                            : 137       : input  : LVTTL/LVCMOS      :         :           : Y              
+J                            : 138       : input  : LVTTL/LVCMOS      :         :           : Y              
 GND_INT                      : 139       : gnd    :                   :         :           :                
 GND*                         : 140       :        :                   :         :           :                
 GND*                         : 141       :        :                   :         :           :                

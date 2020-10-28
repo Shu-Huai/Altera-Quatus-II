@@ -1,18 +1,7 @@
 |Experiment51
-Q <= 7400:inst1.1
-S => 7400:inst1.3
-R => 7400:inst.2
-
-
-|Experiment51|7400:inst1
-1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
-2 => 4.IN0
-3 => 4.IN1
-
-
-|Experiment51|7400:inst
-1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
-2 => 4.IN0
-3 => 4.IN1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst~1.IN0
+J => inst~0.IN1
+CP => inst3.IN0
 
 
