@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
+VECTOR("D:/Altera Quatus II/Experiment6/Experiment62.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 500000;
-		NUMERATOR = 1367;
-		DENOMINATOR = 500000;
+		ZEND = 547600;
+		NUMERATOR = 1092;
+		DENOMINATOR = 436800;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -38,7 +38,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "J";
+		SIGNAL = "A";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -46,7 +46,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "K";
+		SIGNAL = "CP";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -54,7 +54,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CP";
+		SIGNAL = "Q0";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -62,8 +62,24 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Q";
+		SIGNAL = "Q1";
 		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q2";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q3";
+		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -71,13 +87,13 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment52.vwf")
 	}
 }
 
-VECTOR("Z:/Altera Quatus II/Experiment5/Experiment51.vwf")
+VECTOR("D:/Altera Quatus II/Experiment6/Experiment63.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 500000;
-		NUMERATOR = 1367;
-		DENOMINATOR = 500000;
+		ZEND = 1000000;
+		NUMERATOR = 1092;
+		DENOMINATOR = 1000000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -89,7 +105,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment51.vwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "J";
+		SIGNAL = "CP";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -97,7 +113,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment51.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "K";
+		SIGNAL = "Q0";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -105,7 +121,7 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment51.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CP";
+		SIGNAL = "Q1";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -113,8 +129,83 @@ VECTOR("Z:/Altera Quatus II/Experiment5/Experiment51.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Q";
+		SIGNAL = "Q2";
 		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q3";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/Altera Quatus II/Experiment6/Experiment61.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 1369;
+		DENOMINATOR = 1000000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "D";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "CP";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q0";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q1";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q2";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Q3";
+		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
