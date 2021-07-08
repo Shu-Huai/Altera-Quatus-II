@@ -1,0 +1,73 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+# Date created = 21:43:23  July 08, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		HardwareBigHomework_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY ACEX1K
+set_global_assignment -name DEVICE "EP1K30TC144-3"
+set_global_assignment -name TOP_LEVEL_ENTITY HardwareBigHomework
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:43:23  JULY 08, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name BDF_FILE HardwareBigHomework.bdf
+set_global_assignment -name MISC_FILE "Z:/Altera Quatus II/Hardware Big Homework/HardwareBigHomework.dpf"
+set_global_assignment -name FLEX10K_DEVICE_IO_STANDARD LVTTL/LVCMOS
+set_location_assignment PIN_131 -to A
+set_location_assignment PIN_130 -to B
+set_location_assignment PIN_133 -to C
+set_location_assignment PIN_132 -to enable
+set_location_assignment PIN_136 -to y0
+set_location_assignment PIN_135 -to y1
+set_location_assignment PIN_138 -to y2
+set_location_assignment PIN_137 -to y3
+set_location_assignment PIN_8 -to y4
+set_location_assignment PIN_9 -to y5
+set_location_assignment PIN_13 -to y6
+set_location_assignment PIN_17 -to y7
+set_location_assignment PIN_18 -to t0
+set_location_assignment PIN_19 -to t1
+set_location_assignment PIN_21 -to t2
+set_location_assignment PIN_23 -to t3
+set_location_assignment PIN_26 -to for
+set_location_assignment PIN_27 -to x0
+set_location_assignment PIN_29 -to x1
+set_location_assignment PIN_30 -to x2
+set_location_assignment PIN_32 -to m0
+set_location_assignment PIN_33 -to m1
+set_location_assignment PIN_36 -to m2
